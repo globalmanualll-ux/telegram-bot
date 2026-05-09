@@ -13,7 +13,7 @@ async def count_messages(update, context):
 
     if message_count % 100 == 0:
         await update.message.reply_text(
-            "Test bota"
+            "Тест"
         )
 
 app = Application.builder().token(TOKEN).build()
